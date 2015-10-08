@@ -12,7 +12,7 @@ Install oraclejdk
 ```
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
-mkdir -p /var/cache/oracle-jdk8-installer
-mv Desktop/jdk-8u60-linux-x64.tar.gz /var/cache/oracle-jdk8-installer
+sudo mkdir -p /var/cache/oracle-jdk8-installer
+sudo mv ~/Desktop/jdk-8u60-linux-x64.tar.gz /var/cache/oracle-jdk8-installer
 sudo apt-get install oracle-java8-installer
 ```
